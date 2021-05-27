@@ -1,7 +1,21 @@
-html{
-    background-color: aquamarine;
+html, body{
+    background-color: aquamarine ;
+}
+
+.couleurNav {
+    background:linear-gradient(pink, aquamarine);
+}
+
+.buttonModif{
+    background-color: coral;
+    border-color:coral;
     
 }
+
+.dropdown-color{
+    background:pink;
+}
+
 .carteGoogle{
     width:20%;
     height:5%;
@@ -20,17 +34,19 @@ html{
 .titre {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:55px;
+    color:black;
 }
 
 .sousTitre{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:45px;
-    text-decoration: blueviolet;
+    color:black;
 }
 
 .titrePlat{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:35px;
+    color:black;
 }
 
 .ponyo{
