@@ -5,18 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheet.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script>  
+        function changeColor(color) { 
+            document.body.style.background = color; 
+        }
+    </script>
+
     <title> Intégration Web</title>
 </head>
-<body>
+
+<body style = "text-align:center;">
     
     <h1 class="titre"><center><u> Page web de mes plats préférés ! </u> </center></h1>
     <center><img class="ponyo arrondie" src="ramen.jpg" alt="Présentation page"/></center>
+    <p><b><br>Cliquez sur le bouton de votre choix pour changer la couleur du background ! </b></p> 
+        <button onclick = "changeColor('pink');">Rose</button>
+        <button onclick = "changeColor('purple');">Violet</button> 
+        <button onclick = "changeColor('Aquamarine');">Aquamarine</button>
+<br> <br> <br>
 
     <ul><center> <b><h1 class="sousTitre">Plats préférés (version Japon)</h1></b><br><br>
         <li class="puce titrePlat"> Curry japonais <br><br> <img class="recadre arrondie" src="curryJaponais.jpg"> </li>
         <li class="puce titrePlat"> Ramen <br><br> <img class="recadre arrondie" src="ramen512-512.jpg"> </li>
         <li class="puce titrePlat"> Sushis <br><br> <img class="recadre arrondie" src="sushi.jpg"></li>
     </ul></center>
+
+    <iframe class="carteGoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.9639655570927!2d1.0637818509915506!3d49.42849526824811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0de1badb66791%3A0x45e80ceead06139c!2sNormandie%20Web%20School!5e0!3m2!1sfr!2sfr!4v1622110471015!5m2!1sfr!2sfr" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+
 
 </body>
 </html>
