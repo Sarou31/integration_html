@@ -1,0 +1,10 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    background-color: rgb(0, 211, 70);
+}
+
+.recadre{
+    max-height: 512px;
+    max-width: 512px;
+}
